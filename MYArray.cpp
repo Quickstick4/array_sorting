@@ -27,6 +27,7 @@ int GKArray::getSizeOfArray()
 void GKArray::MyFunc() {
     std::cout << "Ohai from another .cpp file!" << '\n';
 //    std::cout << "The number is really " << holder;
-    
+
+    //Just used to causes a pause in the programn as Linux doesn't have pause like Windows
     std::cin.get();
 }
